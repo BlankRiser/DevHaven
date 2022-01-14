@@ -1,13 +1,34 @@
 {
     "name": "devhaven",
-    "displayName": "devhaven",
+    "displayName": "DevHaven",
     "description": "Personal theme customized to suit my tastes",
     "version": "0.0.1",
+    "publisher": "DevHaven",
+    "author": {
+        "name": "Ram Shankar Choudhary",
+        "github": "https://github.com/BlankRiser/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlankRiser/DevHaven"
+    },
+    "bugs": {
+        "url": "https://github.com/BlankRiser/DevHaven/issues"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "DevHaven theme",
+        "Dark theme",
+        "DevHaven",
+        "Haven",
+        "Green theme",
+        "Green",
+        "Chartreuse Web"
     ],
     "contributes": {
         "themes": [
