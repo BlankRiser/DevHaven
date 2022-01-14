@@ -1,0 +1,21 @@
+{
+    "name": "devhaven",
+    "displayName": "devhaven",
+    "description": "Personal theme customized to suit my tastes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DevHaven",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DevHaven-color-theme.json"
+            }
+        ]
+    }
+}
