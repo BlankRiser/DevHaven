@@ -36,6 +36,11 @@
                 "label": "DevHaven",
                 "uiTheme": "vs-dark",
                 "path": "./themes/DevHaven-color-theme.json"
+            },
+            {
+                "label": "DevHaven Muted",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DevHaven-color-theme-muted.json"
             }
         ]
     }

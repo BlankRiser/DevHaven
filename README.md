@@ -6,8 +6,15 @@ A color theme to customize my vscode.
 
 ```js
 
-"statusBar.background": "#101d00",
-"statusBar.foreground": "#91ff00d0",
+// "statusBar.background": "#101d00",
+// "statusBar.foreground": "#91ff00d0",
+
+"statusBar.background": "#00ff93b3",
+"statusBar.foreground": "#000000",
+"statusBarItem.hoverBackground": "#2cff00",
+"statusBarItem.remoteBackground": "#00ff93b3",
+"statusBarItem.remoteForeground": "#000000",
+
 
 "sideBar.background": "#000000",
 "sideBar.foreground": "#89bbaa",
@@ -32,6 +39,22 @@ A color theme to customize my vscode.
 "editorGutter.addedBackground": "#91ff00cc",
 "editorGutter.deletedBackground": "#ff0000cc",
 "editorGutter.foldingControlForeground": "#91ff00cc",
+
+"titleBar.activeBackground": "#002110",
+
+"editorGroup.emptyBackground": "#011627",
+"editorGroup.border": "#011627",
+"editorGroup.dropBackground": "#7e57c273",
+"editorGroupHeader.noTabsBackground": "#011627",
+"editorGroupHeader.tabsBackground": "#052529",
+"editorGroupHeader.tabsBorder": "#262A39",
+"tab.activeBackground": "#073C42",
+"tab.activeForeground": "#fdfdfd",
+"tab.border": "#fafafa1a",
+"tab.activeBorder": "#262A39",
+"tab.unfocusedActiveBorder": "#263934",
+"tab.inactiveBackground": "#91ff000a",
+"tab.inactiveForeground": "#bee4bcbe",
 
 ```
 
