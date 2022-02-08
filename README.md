@@ -56,6 +56,32 @@ A color theme to customize my vscode.
 "tab.inactiveBackground": "#91ff000a",
 "tab.inactiveForeground": "#bee4bcbe",
 
+"panel.background": "#00301c60",
+"panel.border": "#5f977d",
+"panelTitle.inactiveForeground": "#6dff96b0",
+
+
+"terminal.background": "#031A16",
+"terminal.foreground": "#81B5AC",
+"terminalCursor.background": "#81B5AC",
+"terminalCursor.foreground": "#81B5AC",
+"terminal.ansiWhite": "#ffffff",
+"terminal.ansiBlack": "#011627",
+"terminal.ansiBlue": "#82AAFF",
+"terminal.ansiCyan": "#21c7a8",
+"terminal.ansiGreen": "#22da6e",
+"terminal.ansiMagenta": "#C792EA",
+"terminal.ansiRed": "#EF5350",
+"terminal.ansiYellow": "#c5e478",
+"terminal.ansiBrightWhite": "#ffffff",
+"terminal.ansiBrightBlack": "#575656",
+"terminal.ansiBrightBlue": "#82AAFF",
+"terminal.ansiBrightCyan": "#7fdbca",
+"terminal.ansiBrightGreen": "#22da6e",
+"terminal.ansiBrightMagenta": "#C792EA",
+"terminal.ansiBrightRed": "#EF5350",
+"terminal.ansiBrightYellow": "#ffeb95",
+"terminal.selectionBackground": "#1b90dd4d",
 ```
 
 ### Build Theme from Source
