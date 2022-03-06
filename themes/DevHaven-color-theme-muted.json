@@ -1,5 +1,5 @@
 {
-	"name": "DevHaven Muted",
+	"name": "DevHaven",
 	"type": "dark",
 	"semanticHighlighting": false,
 	"colors": {
@@ -34,7 +34,8 @@
 		"scrollbarSlider.hoverBackground": "#084d8180",
 		"badge.background": "#5f7e97",
 		"badge.foreground": "#ffffff",
-		"progress.background": "#0f6d5c",
+		"progress.background": "#91ff00",
+		"progressBar.background": "#ff0000",
 		"breadcrumb.foreground": "#A599E9",
 		"breadcrumb.focusForeground": "#ffffff",
 		"breadcrumb.activeSelectionForeground": "#FFFFFF",
@@ -48,8 +49,8 @@
 		"list.highlightForeground": "#4fb8ae",
 		"list.hoverBackground": "#4fb8ae38",
 		"list.hoverForeground": "#ffffff",
-		"list.inactiveSelectionBackground": "#0e293f",
-		"list.inactiveSelectionForeground": "#5f7e97",
+		"list.inactiveSelectionBackground": "#2370639f",
+		"list.inactiveSelectionForeground": "#ffffff",
 		"activityBar.background": "#052529",
 		"activityBar.dropBackground": "#5f7e97",
 		"activityBar.foreground": "#91ff00",
@@ -60,8 +61,8 @@
 		"sideBar.foreground": "#89bbaa",
 		"sideBar.border": "#91ff0038",
 		"sideBarTitle.foreground": "#91ff00",
-		"sideBarSectionHeader.background": "#011627",
-		"sideBarSectionHeader.foreground": "#5f7e97",
+		"sideBarSectionHeader.background": "#91ff0000",
+		"sideBarSectionHeader.foreground": "#91ff00d0",
 		"editorGroup.emptyBackground": "#011627",
 		"editorGroup.border": "#011627",
 		"editorGroup.dropBackground": "#7e57c273",
@@ -82,11 +83,11 @@
 		"editorLineNumber.foreground": "#4b6479",
 		"editorLineNumber.activeForeground": "#C5E4FD",
 		"editorCursor.foreground": "#91ff00",
-		"editor.selectionBackground": "#1d3b53",
+		"editor.selectionBackground": "#57c28741",
 		"editor.selectionHighlightBackground": "#0A464E",
-		"editor.inactiveSelectionBackground": "#7e57c25a",
-		"editor.wordHighlightBackground": "#f6bbe533",
-		"editor.wordHighlightStrongBackground": "#e2a2f433",
+		"editor.inactiveSelectionBackground": "#57c2875a",
+		"editor.wordHighlightBackground": "#bbf6ca33",
+		"editor.wordHighlightStrongBackground": "#a2f4b033",
 		"editor.findMatchBackground": "#5f7e9779",
 		"editor.findMatchHighlightBackground": "#1085bb5d",
 		"editor.findRangeHighlightBackground": null,
@@ -229,24 +230,21 @@
 				"meta.diff.header.to-file"
 			],
 			"settings": {
-				"foreground": "#a2bffc",
-				"fontStyle": "italic"
+				"foreground": "#a2bffc"
 			}
 		},
 		{
 			"name": "Deleted",
 			"scope": "markup.deleted.diff",
 			"settings": {
-				"foreground": "#EF535090",
-				"fontStyle": "italic"
+				"foreground": "#EF535090"
 			}
 		},
 		{
 			"name": "Inserted",
 			"scope": "markup.inserted.diff",
 			"settings": {
-				"foreground": "#c5e478ff",
-				"fontStyle": "italic"
+				"foreground": "#c5e478ff"
 			}
 		},
 		{
@@ -260,8 +258,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#637777",
-				"fontStyle": "italic"
+				"foreground": "#637777"
 			}
 		},
 		{
@@ -358,8 +355,7 @@
 				"keyword"
 			],
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -373,8 +369,7 @@
 				"storage.type.property.tsx"
 			],
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -412,8 +407,7 @@
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -522,8 +516,7 @@
 			"name": "Keyword Operator Relational",
 			"scope": "keyword.operator.relational",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -593,8 +586,7 @@
 			"name": "Meta Delimiter Period",
 			"scope": "meta.delimiter.period",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -678,8 +670,7 @@
 			"name": "Meta Selector",
 			"scope": "meta.selector",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -703,8 +694,7 @@
 				"meta.tag.sgml.doctype"
 			],
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -748,8 +738,7 @@
 				"variable.other.object.property"
 			],
 			"settings": {
-				"foreground": "#faf39f",
-				"fontStyle": "italic"
+				"foreground": "#faf39f"
 			}
 		},
 		{
@@ -767,8 +756,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#82AAFF",
-				"fontStyle": "italic"
+				"foreground": "#82AAFF"
 			}
 		},
 		{
@@ -795,8 +783,7 @@
 				"keyword.operator.expression.instanceof.tsx"
 			],
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -941,8 +928,7 @@
 			"name": "Italics",
 			"scope": "italic",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -957,8 +943,7 @@
 			"name": "Quote",
 			"scope": "quote",
 			"settings": {
-				"foreground": "#697098",
-				"fontStyle": "italic"
+				"foreground": "#697098"
 			}
 		},
 		{
@@ -1153,8 +1138,7 @@
 			"name": "Elixir Binary Punctuations",
 			"scope": "source.elixir .punctuation.binary.elixir",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -1187,8 +1171,7 @@
 				"source.go keyword.control.go"
 			],
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -1283,8 +1266,7 @@
 			"name": "HTML Doctype",
 			"scope": "meta.tag.sgml.doctype.html",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -1433,8 +1415,7 @@
 			"name": "JavaScript Other Variable",
 			"scope": "variable.other.object.js",
 			"settings": {
-				"foreground": "#7fdbca",
-				"fontStyle": "italic"
+				"foreground": "#7fdbca"
 			}
 		},
 		{
@@ -1505,8 +1486,7 @@
 			"name": "Markdown Italics",
 			"scope": "markup.italic.markdown",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{
@@ -1521,8 +1501,7 @@
 			"name": "Markdown Quote + others",
 			"scope": "markup.quote.markdown",
 			"settings": {
-				"foreground": "#697098",
-				"fontStyle": "italic"
+				"foreground": "#697098"
 			}
 		},
 		{
@@ -1679,8 +1658,7 @@
 			"name": "Python import control keyword",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#c792ea",
-				"fontStyle": "italic"
+				"foreground": "#c792ea"
 			}
 		},
 		{

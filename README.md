@@ -1,6 +1,32 @@
 # DevHaven
 
-A color theme to customize my vscode.
+A color theme to customize my vscode by borrowing color elements from [NightOwl Theme](https://github.com/sdras/night-owl-vscode-theme).
+
+### Build Theme from Source
+
+- Install [VS Code Extension Manager](https://github.com/microsoft/vscode-vsce)
+
+```node
+npm i -g vsce
+```
+
+- Use `vsce` to package the theme
+
+```node
+vsce package
+```
+
+- [Install vsix package through VS Code](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) that is generated in source folder
+
+```
+code --install-extension <package_name>.vsix
+```
+
+### References
+
+- [Night Owl Theme](https://github.com/sdras/night-owl-vscode-theme)
+- [Base16 Terminal Colors](https://glitchbone.github.io/vscode-base16-term/)
+- [Creating a VS Code theme](https://juhanajauhiainen.com/posts/how-to-create-your-own-vscode-theme)
 
 ### Color Choices
 
@@ -14,6 +40,43 @@ A color theme to customize my vscode.
 "statusBarItem.hoverBackground": "#2cff00",
 "statusBarItem.remoteBackground": "#00ff93b3",
 "statusBarItem.remoteForeground": "#000000",
+
+/* --- DevHaven
+    "statusBar.background": "#00ff93b3",
+    "statusBar.foreground": "#000000",
+    "statusBar.border": "#262A39",
+    "statusBar.debuggingBackground": "#202431",
+    "statusBar.debuggingForeground": null,
+    "statusBar.debuggingBorder": "#1F2330",
+    "statusBar.noFolderForeground": null,
+    "statusBar.noFolderBackground": "#011627",
+    "statusBar.noFolderBorder": "#25293A",
+    "statusBarItem.remoteBackground": "#00ff93b3",
+    "statusBarItem.remoteForeground": "#000000",
+    "statusBarItem.activeBackground": "#202431",
+    "statusBarItem.hoverBackground": "#2cff00",
+    "statusBarItem.prominentBackground": "#202431",
+    "statusBarItem.prominentHoverBackground": "#202431",
+*/
+
+/* --- Devhaven Muted Staus Bar
+    "statusBar.background": "#002c0b1f",
+    "statusBar.foreground": "#00ff93b3",
+    "statusBar.border": "#262A39",
+    "statusBar.debuggingBackground": "#202431",
+    "statusBar.debuggingForeground": null,
+    "statusBar.debuggingBorder": "#1F2330",
+    "statusBar.noFolderForeground": null,
+    "statusBar.noFolderBackground": "#011627",
+    "statusBar.noFolderBorder": "#25293A",
+    "statusBarItem.remoteBackground": "#00ff93b3",
+    "statusBarItem.remoteForeground": "#000000",
+    "statusBarItem.activeBackground": "#1e3a35",
+    "statusBarItem.hoverBackground": "#2bff004f",
+    "statusBarItem.prominentBackground": "#202431",
+    "statusBarItem.prominentHoverBackground": "#202431",
+
+*/
 
 
 "sideBar.background": "#000000",
@@ -82,24 +145,4 @@ A color theme to customize my vscode.
 "terminal.ansiBrightRed": "#EF5350",
 "terminal.ansiBrightYellow": "#ffeb95",
 "terminal.selectionBackground": "#1b90dd4d",
-```
-
-### Build Theme from Source
-
-- Install [VS Code Extension Manager](https://github.com/microsoft/vscode-vsce)
-
-```node
-npm i -g vsce
-```
-
-- Use `vsce` to package the theme
-
-```node
-vsce package
-```
-
-- [Install vsix package through VS Code](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) that is generated in source folder
-
-```
-code --install-extension <package_name>.vsix
 ```

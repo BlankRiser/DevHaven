@@ -15,9 +15,14 @@
     "bugs": {
         "url": "https://github.com/BlankRiser/DevHaven/issues"
     },
+    "galleryBanner": {
+        "color": "#2cff00",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
+    "icon": "images/icon/logo.png",
     "categories": [
         "Themes"
     ],
