@@ -2,7 +2,7 @@
     "name": "devhaven",
     "displayName": "DevHaven",
     "description": "Personal theme customized to suit my tastes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "DevHaven",
     "author": {
         "name": "Ram Shankar Choudhary",
@@ -14,10 +14,6 @@
     },
     "bugs": {
         "url": "https://github.com/BlankRiser/DevHaven/issues"
-    },
-    "galleryBanner": {
-        "color": "#2cff00",
-        "theme": "dark"
     },
     "engines": {
         "vscode": "^1.63.0"
