@@ -27,6 +27,7 @@ code --install-extension <package_name>.vsix
 - [Night Owl Theme](https://github.com/sdras/night-owl-vscode-theme)
 - [Base16 Terminal Colors](https://glitchbone.github.io/vscode-base16-term/)
 - [Creating a VS Code theme](https://juhanajauhiainen.com/posts/how-to-create-your-own-vscode-theme)
+- [Publish extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
 ### Color Choices
 
@@ -146,3 +147,14 @@ code --install-extension <package_name>.vsix
 "terminal.ansiBrightYellow": "#ffeb95",
 "terminal.selectionBackground": "#1b90dd4d",
 ```
+
+### Difference between regular and Muted
+
+````json
+    "statusBar.background": "#002c0b1f",
+    "statusBar.foreground": "#00ff93b3",
+// muted
+    "statusBar.background": "#00ff93b3",
+	"statusBar.foreground": "#002c0b1f",
+    ```
+````

@@ -2,7 +2,7 @@
     "name": "devhaven",
     "displayName": "DevHaven",
     "description": "Personal theme customized to suit my tastes",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "DevHaven",
     "author": {
         "name": "Ram Shankar Choudhary",
@@ -29,19 +29,24 @@
         "Haven",
         "Green theme",
         "Green",
-        "Chartreuse Web"
+        "Chartreuse"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "DevHaven",
+                "label": "DevHaven (Dracula)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/DevHaven-color-theme.json"
+                "path": "./themes/DevHaven-dracula.json"
             },
             {
-                "label": "DevHaven Muted",
+                "label": "DevHaven (Dracula Italics)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/DevHaven-color-theme-muted.json"
+                "path": "./themes/DevHaven-dracula-italics.json"
+            },
+            {
+                "label": "DevHaven (Nightowl)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DevHaven-nightowl.json"
             }
         ]
     }
